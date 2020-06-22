@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--规定xml文件中的类名在这个包-->
+   <!-- <typeAliases>
+        <package name="com.fly"/>
+    </typeAliases>-->
+    <!-- 映射文件所在位置 -->
+    <!--<mappers>-->
+        <!--<package name="com.fly.mapper"/>-->
+    <!--</mappers>-->
+
+</configuration>

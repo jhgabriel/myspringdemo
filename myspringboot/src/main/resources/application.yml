@@ -1,0 +1,18 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:mysql:///mybatis
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 172.81.247.15
+    port: 6380
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.fly.pojo
+mapper:
+  mappers: com.fly.mapper
+
+
