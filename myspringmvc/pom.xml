@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>my-spring-demo</artifactId>
-        <groupId>org.fly</groupId>
+        <groupId>org.com.fly</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>

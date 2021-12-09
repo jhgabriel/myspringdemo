@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>my-spring-demo</artifactId>
-        <groupId>org.fly</groupId>
+        <groupId>org.com.fly</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,6 +12,11 @@
     <artifactId>my-springboot</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.com.fly</groupId>
+            <artifactId>common-db</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
