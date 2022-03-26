@@ -15,6 +15,7 @@
         <module>common-db</module>
         <module>02-springmvc</module>
         <module>03-springmvcembed</module>
+        <module>00-test</module>
     </modules>
 
     <parent>
